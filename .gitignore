@@ -1,0 +1,36 @@
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+ai_engine/venv
+server/venv
+ai_engine/__pycache__
+ai_engine/brain/__pycache__
+ai_engine/brain/__init__.py
+server/config/gee-service-account.json
+server/vertexAiKey.json
+# Env
+.env
+.env.*
+.env.local
+
+# Build
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+serviceAccountKey.json
+client/src/config.js
+vertexAiKey.json
+unknown*
+venv/
+audio-safety-service/model
+audio-safety-service/serviceAccountKey.json
+audio-safety-service/__pycache__

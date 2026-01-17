@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "ai_engine",
+      "path": "ai_engine"
+    },
+    {
+      "name": "client",
+      "path": "client"
+    },
+    {
+      "name": "server",
+      "path": "server"
+    },
+    {
+      "name": "audio-safety-service",
+      "path": "audio-safety-service"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../../Downloads/model"
+    }
+  ],
+  "settings": {
+    "python.terminal.activateEnvironment": true
+  }
+}

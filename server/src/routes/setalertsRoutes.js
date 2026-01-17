@@ -1,0 +1,16 @@
+import express from "express";
+import { checkJwt } from "../auth/authMiddleware.js";
+const router = express.Router();
+import { setDeforestationAlert } from "../alerts/setDeforestationalerts.js";
+import { setFireAlert } from "../alerts/setFirealerts.js";
+import { setCoastalErosionAlert } from "../alerts/setCoastalErosion.js";
+import { setFloodAlert } from "../alerts/setFloodalerts.js";
+import { setSurfaceHeatAlert } from "../alerts/setSurfaceHeatAlert.js";
+import { setPollutantAlert } from "../alerts/setPollutantsalerts.js";
+router.post('/setDeforestationAlert', checkJwt, setDeforestationAlert);
+router.post('/setFireAlert', checkJwt, setFireAlert);
+router.post('/setCoastalErosionAlert', checkJwt, setCoastalErosionAlert);
+router.post('/setFloodAlert', checkJwt, setFloodAlert);
+router.post('/setSurfaceHeatAlert', checkJwt, setSurfaceHeatAlert);
+router.post('/setPollutantAlert', checkJwt, setPollutantAlert);
+export default router;
