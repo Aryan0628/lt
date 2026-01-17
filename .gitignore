@@ -1,6 +1,7 @@
 # Node
 node_modules/
 client/node_modules/
+client/src/firebase/firebase.js
 server/node_modules/
 ai_engine/venv
 server/venv
